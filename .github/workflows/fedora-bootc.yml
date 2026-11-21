@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths: [fedora-bootc/**, .github/workflows/fedora-bootc.yml]
+  workflow_dispatch:
 
 permissions:
   contents: read
